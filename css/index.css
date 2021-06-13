@@ -1,0 +1,31 @@
+@import './fonts.css';
+@import './hero.css';
+@import './wrapper.css';
+@import './button.css';
+
+:root {
+  --basefontFamily: 'Bai Jamjuree', sans-serif;
+  --headline1: bold 32px/40px var(--basefontFamily);
+  --headline2: bold 28px/35px var(--basefontFamily);
+  --headline3: bold 24px/30px var(--basefontFamily);
+  --body1: normal 16px/26px var(--basefontFamily);
+  --button: bold 18px/30px var(--basefontFamily);
+  --footer: normal 18px/30px var(--basefontFamily);
+  /* Sistema de diseño para version desktop */
+  --headline1Desktop: bold 46px/57px var(--basefontFamily);
+  --headline2Desktop: bold 36px/45px var(--basefontFamily);
+  --body1Desktop: normal 20px/30px var(--basefontFamily);
+  --body2Desktop: normal 16px/30px var(--basefontFamily);
+  /* Colores */
+  --strongCyan: hsl(171, 66%, 44%);
+  --lightBlue: hsl(233, 100%, 69%);
+  --darkGrayishBlue: hsl(210, 10%, 33%);
+  --grayishBlue: hsl(201, 11%, 66%);
+  --white: #FFFFFF;
+}
+
+body {
+  font: var(--body1);
+  color: var(--grayishBlue);
+  margin: 0;
+}

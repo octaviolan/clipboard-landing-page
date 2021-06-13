@@ -1,0 +1,31 @@
+.button {
+  padding-block-start: 13px;
+  padding-block-end: 13px;
+  padding-inline-start: 36px;
+  padding-inline-end: 36px;
+  font: var(--button);
+  color: var(--white);
+  border-radius: 28px;
+  border: none;
+  cursor: pointer;
+  will-change: transform, opacity;
+  transition: transform .3s, opacity .3s;
+}
+
+.button.is-ios {
+  background: var(--strongCyan);
+  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+.button.is-mac {
+  background: var(--lightBlue);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+.button:hover {
+  opacity: .8;
+}
+
+.button:active {
+  transform: scale(.95);
+}

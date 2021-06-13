@@ -1,0 +1,66 @@
+.hero {
+  background-image: url(../images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  padding-block-start: 123px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  align-items: center;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+.hero-button {
+  display: flex;
+  flex-direction: column;
+  inline-size: 100%;
+  gap: 24px;
+}
+
+
+.hero-title{
+  margin: 0;
+  font: var(--headline1);
+  color: var(--darkGrayishBlue);
+  letter-spacing: -0.52px;
+}
+
+.hero-info {
+  margin: 0;
+  font: var(--body1);
+  letter-spacing: 0.12px;
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    background-image: url(../images/bg-header-desktop.png);
+  }
+
+  .hero-title {
+    font: var(--headline1Desktop);
+  }
+
+  .hero-info {
+    font: var(--body1Desktop);
+    max-inline-size: 730px;
+  }
+
+  .hero-button {
+    max-inline-size: 470px;
+    gap: 16px;
+    flex-direction: row;
+  }
+
+  .button {
+    inline-size: 227px;
+  }
+}
+
