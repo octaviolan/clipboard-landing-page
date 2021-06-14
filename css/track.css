@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 65px;
+  align-items: center;
   text-align: center;
 }
 
@@ -42,4 +43,55 @@
 .track-descriptionItemInfo {
   margin: 0;
   letter-spacing: .1px;
+}
+
+@media screen and (min-width: 1024px) {
+  .track {
+    gap: 80px;
+
+  }
+  .track-head {
+    max-inline-size: 730px;
+    /* align-self: center; */
+  }
+
+  .track-headTitle {
+    font: var(--headline2Desktop);
+  }
+
+  .track-headInfo {
+    font: var(--body2Desktop);
+    letter-spacing: .14px;
+  }
+
+  .track-description {
+    inline-size: 1212px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    left: -115px;
+  }
+
+  .track-descriptionImage img {
+    inline-size: 752px;
+    block-size: 572px;
+  }
+
+  .track-descriptionInfo {
+    inline-size: 350px;
+    text-align: start;
+    gap: 56px;
+  }
+
+  .track-descriptionItem {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .track-descriptionItemInfo {
+    font: var(--body3Desktop);
+  }
 }

@@ -3,6 +3,7 @@
 @import './wrapper.css';
 @import './button.css';
 @import './track.css';
+@import './access.css';
 
 :root {
   --basefontFamily: 'Bai Jamjuree', sans-serif;
@@ -16,7 +17,8 @@
   --headline1Desktop: bold 46px/57px var(--basefontFamily);
   --headline2Desktop: bold 36px/45px var(--basefontFamily);
   --body1Desktop: normal 20px/30px var(--basefontFamily);
-  --body2Desktop: normal 16px/30px var(--basefontFamily);
+  --body2Desktop: normal 18px/30px var(--basefontFamily);
+  --body3Desktop: normal 16px/30px var(--basefontFamily);
   /* Colores */
   --strongCyan: hsl(171, 66%, 44%);
   --lightBlue: hsl(233, 100%, 69%);

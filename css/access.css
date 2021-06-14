@@ -1,0 +1,9 @@
+.access {
+  border: 1px solid red;
+}
+
+.access-title {
+  margin: 0;
+  font: var(--headline2);
+  color: var(--darkGrayishBlue);
+}
