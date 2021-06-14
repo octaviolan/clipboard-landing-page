@@ -2,8 +2,9 @@
 @import './hero.css';
 @import './wrapper.css';
 @import './button.css';
-@import './track.css';
-@import './access.css';
+@import './main.css';
+
+
 
 :root {
   --basefontFamily: 'Bai Jamjuree', sans-serif;

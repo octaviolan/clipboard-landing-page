@@ -1,9 +1,41 @@
 .access {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.access-head {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+  max-inline-size: 730px;
 }
 
 .access-title {
   margin: 0;
   font: var(--headline2);
   color: var(--darkGrayishBlue);
+}
+
+.access-info {
+  margin: 0;
+  font: var(--body2Desktop);
+}
+
+.access-image img {
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 1024px) {
+  .access-title {
+    font: var(--headline2Desktop);
+  }
+
+  .access-image img {
+    inline-size: 812px;
+    block-size: 475px;
+  }
 }

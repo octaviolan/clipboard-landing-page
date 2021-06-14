@@ -1,0 +1,10 @@
+@import './track.css';
+@import './access.css';
+@import './workflow.css';
+@import './logo.css';
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
