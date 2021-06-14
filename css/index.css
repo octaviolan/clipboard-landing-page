@@ -2,6 +2,7 @@
 @import './hero.css';
 @import './wrapper.css';
 @import './button.css';
+@import './track.css';
 
 :root {
   --basefontFamily: 'Bai Jamjuree', sans-serif;
@@ -28,4 +29,9 @@ body {
   font: var(--body1);
   color: var(--grayishBlue);
   margin: 0;
+}
+
+.main {
+  margin-block-start: 150px;
+  margin-block-end: 150px;
 }

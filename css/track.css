@@ -1,0 +1,45 @@
+.track {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  text-align: center;
+}
+
+.track-head {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.track-headTitle {
+  margin: 0;
+  font: var(--headline2);
+  color: var(--darkGrayishBlue);
+}
+
+.track-headInfo {
+  margin: 0;
+}
+
+.track-description {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.track-descriptionInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.track-descriptionItemTitle {
+  margin: 0;
+  font: var(--headline3);
+  color: var(--darkGrayishBlue);
+}
+
+.track-descriptionItemInfo {
+  margin: 0;
+  letter-spacing: .1px;
+}
