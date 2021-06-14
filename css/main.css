@@ -2,6 +2,7 @@
 @import './access.css';
 @import './workflow.css';
 @import './logo.css';
+@import './download.css';
 
 .main-content {
   display: flex;
