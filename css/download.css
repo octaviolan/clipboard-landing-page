@@ -19,8 +19,10 @@
 }
 
 .download-button {
+  inline-size: 311px;
   display: flex;
   flex-direction: column;
+  align-self: center;
   gap: 24px;
 }
 
@@ -37,6 +39,7 @@
   }
 
   .download-button {
+    inline-size: 470px;
     flex-direction: row;
     gap: 16px;
   }
